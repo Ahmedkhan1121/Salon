@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+.navebar{
+    position: relative;
+}
+.logo img{
+    width: 8vw;
+    border-radius: 50%;
+}
+.logo{
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 30px;
+}
+.li-list{
+    display:inline-block;
+    position: absolute;
+    left: 45%;
+    top: 15px;
+
+}
+.li-list li{
+    display: inline-block;
+    /* position: absolute; */
+    padding: 0 10px;
+    font-size: 1.2rem;
+}
+
+.li-list li:hover{
+    color: #00d8d6;
+    text-shadow: 10px 10px 10px #55efc4;
+}
+.home-container{
+    background-image: url(./pexels-valeria-boltneva-696287.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center ;
+}
+.home-container h1 { 
+    
+    padding-top: 200px;
+    text-align: center;
+    font-size: 3.5rem;
+    color: #d2dae2;
+    text-shadow: 10px 10px 10px #55efc4;
+    
+}
+.btn{ 
+    padding bottom:200px ;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.btn button{
+    padding:10px 20px;
+    margin: 0 5px;
+    background-color: #00d8d6;
+    color: #d2dae2;
+    border:none;
+     border-radius:10px ;
+     cursor: pointer;
+
+}
+.review h1{   
+    padding: 30px 0;
+    text-align: center;
+    font-size: 2.5rem;
+    text-shadow:10px 10px 10px #55efc4 ;
+    color: #00d8d6;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.img1{
+    position: relative;
+    left: -15;
+}
+.img2{
+    position: relative;
+}
+.hhs{
+    
+}

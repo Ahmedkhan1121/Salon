@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    position: relative;
+}
+.logo img{
+    width: 8vw;
+    border-radius: 50%;
+}
+.logo{
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 5px;
+}
+.li-list{
+    display: inline-block;
+    position: absolute;
+    left: 45%;
+    top: 15px;
+}
+.li-list li{
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 1.2rem;
+}
+.li-list li:hover{
+    color: #00d8d6;
+    text-shadow: 10px 10px 10px #55efc4;
+}
+.homeContainer{
+    background-image: url(./pexels-valeria-boltneva-696287.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.homeContainer h1{
+    padding-top: 200px;
+    text-align: center;
+    font-size: 3.5rem;
+    color: #d2dae2;
+    text-shadow: 10px 10px 10px #55efc4;
+    
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn button{
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #00d8d6;
+    border: none;
+    color: #d2dae2;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.review h1{
+    padding: 30px 0;
+    text-align: center; 
+    font-size: 2.5rem;
+    text-shadow: 10px 10px 10px #55efc4;
+    color: #00d8d6;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.img1{
+    position: relative;
+    left: -15px;
+}
+.img2{
+    position: relative;
+}
+.img1 img{
+    box-shadow: 10px 10px 20px #353434;
+    z-index: -1;
+}
+.img1 h2{
+    position: absolute;
+    bottom: 100px;
+    left: 250px;
+    color: #d2dae2;
+    font-size: 2rem;
+    text-shadow: 10px 10px 10px #55efc4;
+}
+.img2 img{
+    box-shadow: 10px 10px 20px #353434;
+    z-index: -1;
+}
+.img2 h2{
+    position: absolute;
+    bottom: 90px;
+    left: 210px;
+    color: #d2dae2;
+    font-size: 2rem;
+    text-shadow: 10px 10px 10px #55efc4;
+}
+.cont-form h1{
+    padding: 30px 0;
+    text-align: center;
+    font-size: 2.5rem;
+    text-shadow: 10px 10px 10px #55efc4;
+    color: #00d8d6;
+}
+.web-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+}
+.inp{
+    padding: 10px 190px;
+    outline: none;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+textarea{
+    resize: vertical;
+    padding: 5px 170px;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    outline: none;
+}
+button{
+    margin-top: 10px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: #00d8d6;
+    color: #d2dae2;
+    cursor: pointer;
+}
+.Sign-out{
+    padding: 10px 190px;
+    /* background-color: #00d8d6; */
+    outline: none;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+.Sign-out textarea{ 
+        resize: vertical;
+        padding: 5px 170px;
+        border-radius: 5px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        outline: none;
+    }
+.Log-in{ 
+    margin-top: 10px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    /* background-color: #00d8d6; */
+    color: #d2dae2;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+
+    ;
+}
